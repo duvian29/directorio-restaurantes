@@ -1,0 +1,125 @@
+body {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  background-color: #e6e4e4;
+}
+
+header {
+  background-color: #003366;
+  color: white;
+  padding: 1rem;
+}
+
+.principal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.principal ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.principal a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.principal a:hover {
+  text-decoration: underline;
+}
+
+.busqueda {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.ingrese-busqueda {
+  display: flex;
+  gap: 0.5rem;
+  margin-block-end: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+.ingrese-busqueda input {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  inline-size: 700px;
+  font-size: 1.3rem;
+}
+
+.ingrese-busqueda label {
+  font-weight:700;
+  color: #003366;
+  font-size: 1.3rem;
+}
+
+.ingrese-busqueda button {
+  background-color: #003366;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.ingrese-busqueda button:hover{
+  background-color: #0977e4;
+}
+
+.resultados{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.resultados .tarjeta{
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 1rem;
+  inline-size: 250px;
+}
+
+.resultados .tarjeta img {
+  inline-size: 100%;
+  block-size: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-block-end: 0.8rem;
+}
+
+.resultados .tarjeta h3 {
+  color: #003366;
+  margin-block-end: 0.5rem;
+}
+
+.resultados .tarjeta p {
+  font-size: 1.1rem;
+  color: #030303;
+  line-height: 1.4;
+}
+
+
+footer {
+  text-align: center;
+  background-color: #003366;
+  color: white;
+  padding: 0.5rem;
+  position: relative;
+}

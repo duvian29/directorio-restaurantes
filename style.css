@@ -1,0 +1,78 @@
+body {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  background-color: #e6e4e4;
+}
+
+header {
+  background-color: #003366;
+  color: white;
+  padding: 1rem;
+}
+
+.principal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.principal ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.principal a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.principal a:hover {
+  text-decoration: underline;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+  gap:1rem;
+  padding: 2rem;
+}
+
+.tarjeta {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 1rem;
+}
+
+.tarjeta img {
+  inline-size: 100%;
+  border-radius: 8px;
+  inline-size: 100%;
+  block-size: 180px;
+}
+
+.tarjeta h3 {
+  margin: 0.5rem 0 0.3rem;
+  color: #003366;
+}
+
+.tarjeta p {
+  color: #333;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+footer {
+  text-align: center;
+  background-color: #003366;
+  color: white;
+  padding: 0.5rem;
+  position: relative;
+}
